@@ -1,0 +1,18 @@
+.App {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.player-creator {
+    background-color: #1c1e20;
+    display: grid;
+    place-items: center;
+}
+
+.player-preview {
+    background-color: #485963;
+    display: grid;
+    place-items: center;
+}
